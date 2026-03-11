@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+backend/venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 环境变量（重要！避免泄露密码）
+.env
+.env.local
+
+# 日志
+logs/
+*.log
+backend.log
+frontend.log
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+dist/
+.cache/
+frontend/dist/
+frontend/node_modules/
+
+# 临时文件
+tmp/
+temp/
+
+# 大量数据文件目录（不上传原始/处理后数据）
+origin_data/
+processed_data/
+
+# 策略索引数据（大量JSON）
+strategy_index/
+
+# 学习案例数据（大量JSON）
+learning_cases/
+
+# 因子分析数据
+data/factor_analysis/
+data/factor_analysis_backup/
+data/*.txt
+
+# archive归档目录（开发过程备份，无需上传）
+archive/
+
+# 编译产物
+*.pyc
+*.pyo
+frontend/build/
+
+# 脚本运行数据目录
+backend/scripts/data/

@@ -1,0 +1,19 @@
+data:
+  origin_path: "./origin_data"
+  processed_path: "./processed_data"
+  index_path: "./strategy_index"
+  db_path: "./data/backtest.db"
+  calendar_path: "./data/trade_calendar.csv"
+
+indicators:
+  wash_short_period: 3  # 固定值
+  wash_long_period: 21  # 固定值
+  
+backtest:
+  default_capital: 1000000
+  default_slippage: 0.0015
+  default_commission: 0.0002
+  
+api:
+  host: "127.0.0.1"
+  port: 8000
